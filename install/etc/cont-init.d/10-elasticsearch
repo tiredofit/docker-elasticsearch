@@ -1,0 +1,17 @@
+#!/usr/bin/with-contenv bash
+
+source /assets/functions/00-container
+prepare_service
+PROCESS_NAME="elasticsearch"
+
+# Determine if x-pack is enabled
+if bin/elasticsearch-plugin list -s | grep -q x-pack; then
+    if [[ -n "$ELASTIC_PASSWORD" ]]; then
+        [[ -f config/elasticsearch.keystore ]] ||  bin/elasticsearch-keystore create
+        echo "$ELASTIC_PASSWORD" | bin/elasticsearch-keystore add -x 'bootstrap.password'
+    fi
+fi
+
+chown -R elasticsearch /usr/share/elasticsearch/{config,data,logs}
+
+liftoff
