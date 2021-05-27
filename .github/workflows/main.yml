@@ -1,7 +1,7 @@
 ### Application Level Image CI
 ### Dave Conroy <dave at tiredofit dot ca>
 
-name: 'Build Images'
+name: 'build'
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
     - '**'
     - '!README.md'
 jobs:
-  docker:
+  push:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -105,6 +105,6 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64
+          platforms: linux/amd64
           push: true
           tags: ${{ steps.prep.outputs.tags }}
