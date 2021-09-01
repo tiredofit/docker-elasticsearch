@@ -2,7 +2,7 @@ FROM tiredofit/alpine:3.14
 LABEL maintainer="Dave Conroy (github.com/tiredofit)"
 
 ### Set Environment Variables
-ENV ELASTICSEARCH_VERSION=7.14.0 \
+ENV ELASTICSEARCH_VERSION=7.14.1 \
     JAVA_HOME=/usr/lib/jvm/java-11-openjdk \
     PATH=/usr/share/elasticsearch/bin:$PATH \
     ES_TMPDIR=/usr/share/elasticsearch/tmp \

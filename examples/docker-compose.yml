@@ -17,7 +17,7 @@ services:
       - ./data:/usr/share/elasticsearch/data
       - ./logs:/usr/share/elasticsearch/logs
     environment:
-      - ZABBIX_HOSTNAME=elasticsearch-app
+      - CONTAINER_NAME=elasticsearch-app
     networks:
       - services
     restart: always

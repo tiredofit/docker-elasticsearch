@@ -1,3 +1,9 @@
+## 1.2.2 2021-09-01 <dave at tiredofit dot ca>
+
+   ### Added
+      - Elasticsearch 7.14.1
+
+
 ## 1.2.1 2021-08-03 <dave at tiredofit dot ca>
 
    ### Added
