@@ -1,3 +1,9 @@
+## 1.2.4 2021-10-06 <dave at tiredofit dot ca>
+
+   ### Changed
+      - Change the way logrotate configuration is named
+
+
 ## 1.2.3 2021-09-21 <dave at tiredofit dot ca>
 
    ### Added
