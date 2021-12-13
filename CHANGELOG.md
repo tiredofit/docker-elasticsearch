@@ -1,3 +1,12 @@
+## 1.2.8 2021-12-13 <dave at tiredofit dot ca>
+
+   ### Added
+      - Elasticsearch 7.16.1
+
+   ### Changed
+      - Prep for Zabbix Agent monitoring
+
+
 ## 1.2.7 2021-11-24 <dave at tiredofit dot ca>
 
    ### Added
