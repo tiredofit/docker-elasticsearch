@@ -7,7 +7,7 @@ ENV ELASTICSEARCH_VERSION=7.17.0 \
     PATH=/usr/share/elasticsearch/bin:$PATH \
     ES_TMPDIR=/usr/share/elasticsearch/tmp \
     ES_JAVA_OPTS="-Des.cgroups.hierarchy.override=/ " \
-    IMAGE_NAME="tiredofit/elasticsearch" \
+    IMAGE_NAME="tiredofit/elasticsearch:7" \
     IMAGE_REPO_URL="https://github.com/tiredofit/docker-elasticsearch/"
 
 ### Add Users

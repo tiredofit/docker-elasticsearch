@@ -1,3 +1,9 @@
+## 1.2.13 2022-02-11 <dave at tiredofit dot ca>
+
+   ### Changed
+      - Fix for broken path with new S6 Overlay not being able to find non standard bin location
+
+
 ## 1.2.12 2022-02-09 <dave at tiredofit dot ca>
 
    ### Changed
