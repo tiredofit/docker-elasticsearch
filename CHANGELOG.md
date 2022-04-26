@@ -1,3 +1,9 @@
+## 1.2.17 2022-04-26 <dave at tiredofit dot ca>
+
+   ### Changed
+      - Update Logrotate directory
+
+
 ## 1.2.16 2022-04-20 <dave at tiredofit dot ca>
 
    ### Added
