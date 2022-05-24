@@ -1,3 +1,10 @@
+## 1.2.18 2022-05-24 <dave at tiredofit dot ca>
+
+   ### Added
+      - Alpine 3.16 base
+      - Elasticsearch 7.17.4
+
+
 ## 1.2.17 2022-04-26 <dave at tiredofit dot ca>
 
    ### Changed
