@@ -1,3 +1,9 @@
+## 1.2.19 2022-05-31 <dave at tiredofit dot ca>
+
+   ### Added
+      - Split branches from master
+
+
 ## 1.2.18 2022-05-24 <dave at tiredofit dot ca>
 
    ### Added
