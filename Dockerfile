@@ -2,7 +2,7 @@ FROM docker.io/tiredofit/alpine:3.16
 LABEL maintainer="Dave Conroy (github.com/tiredofit)"
 
 ### Set Environment Variables
-ENV ELASTICSEARCH_VERSION=7.17.4 \
+ENV ELASTICSEARCH_VERSION=7.17.5 \
     JAVA_HOME=/usr/lib/jvm/java-11-openjdk \
     PATH=/usr/share/elasticsearch/bin:$PATH \
     ES_TMPDIR=/usr/share/elasticsearch/tmp \
