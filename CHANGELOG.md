@@ -1,3 +1,12 @@
+## 1.2.24 2022-12-11 <dave at tiredofit dot ca>
+
+   ### Added
+      - Elasticsearch 7.17.8
+
+   ### Changed
+      - Rework Dockerfile
+
+
 ## 1.2.23 2022-11-23 <dave at tiredofit dot ca>
 
    ### Added
