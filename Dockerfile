@@ -7,7 +7,7 @@ LABEL maintainer="Dave Conroy (github.com/tiredofit)"
 ARG ELASTICSEARCH_VERSION
 
 ### Set Environment Variables
-ENV ELASTICSEARCH_VERSION=${ELASTICSEARCH_VERSION:-"7.17.10"} \
+ENV ELASTICSEARCH_VERSION=${ELASTICSEARCH_VERSION:-"7.17.11"} \
     JAVA_HOME=/usr/lib/jvm/java-11-openjdk \
     PATH=/usr/share/elasticsearch/bin:$PATH \
     ES_TMPDIR=/usr/share/elasticsearch/tmp \
