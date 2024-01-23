@@ -1,3 +1,9 @@
+## 7-1.2.34 2024-01-23 <dave at tiredofit dot ca>
+
+   ### Added
+      - Elasticsearch 7.17.17
+
+
 ## 7-1.2.33 2023-12-12 <dave at tiredofit dot ca>
 
    ### Added
