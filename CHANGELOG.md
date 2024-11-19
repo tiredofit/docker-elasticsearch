@@ -1,3 +1,10 @@
+## 7-1.2.43 2024-11-19 <dave at tiredofit dot ca>
+
+   ### Added
+      - Switch to tiredofit/alpine:3.20
+      - OpenJDK 21
+
+
 ## 7-1.2.42 2024-10-23 <dave at tiredofit dot ca>
 
    ### Added

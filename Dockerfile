@@ -1,5 +1,5 @@
 ARG DISTRO="alpine"
-ARG DISTRO_VARIANT="3.19"
+ARG DISTRO_VARIANT="3.20"
 
 FROM docker.io/tiredofit/${DISTRO}:${DISTRO_VARIANT}
 LABEL maintainer="Dave Conroy (github.com/tiredofit)"
@@ -8,7 +8,7 @@ ARG ELASTICSEARCH_VERSION
 
 ### Set Environment Variables
 ENV ELASTICSEARCH_VERSION=${ELASTICSEARCH_VERSION:-"7.17.25"} \
-    JAVA_HOME=/usr/lib/jvm/java-11-openjdk \
+    ES_JAVA_HOME=/usr/lib/jvm/java-21-openjdk \
     PATH=/usr/share/elasticsearch/bin:$PATH \
     ES_TMPDIR=/usr/share/elasticsearch/tmp \
     ES_JAVA_OPTS="-Des.cgroups.hierarchy.override=/ " \
@@ -25,7 +25,7 @@ RUN source /assets/functions/00-container && \
     package update && \
     package upgrade && \
     package install .elasticsearch-run-deps \
-                    openjdk11 \
+                    openjdk21 \
                     && \
     \
     mkdir -p /usr/share/elasticsearch && \
